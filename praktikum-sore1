@@ -1,0 +1,65 @@
+#include <stdio.h>
+/*
+int main() {
+	char huruf;
+	scanf(" %c", &huruf);
+
+	int angka;
+	float riil;
+
+	scanf("%d %f", &angka, &riil);
+
+	printf(" %c %d %0.2f\n", huruf,angka,riil);
+	return 0;
+}
+*/
+/*
+int main() {
+	printf("Menampilkan konten yang akan di print\n");
+
+	float angka = 2.3;
+	printf("%0.2f\n",angka);
+
+	int nomor = 5;
+	char huruf = 'A';
+
+	printf("Nomor antrian anda : %d%c\n", nomor,huruf);
+
+	return 0;
+}
+*/
+
+int main() {
+	//membuat variabel penampung bilangan pertama
+	int bil1;
+	//membuat variabel penampung bilangan kedua
+	int bil2;
+
+	//membuat variabel penampung hasil-hasil operasi
+	int hasilTambah;
+	int hasilKurang;
+	int hasilKali;
+	int hasilBagi;
+	int hasilModulus;
+
+	//user memasukkan bilangan pertama dan kedua
+	printf("Masukkan Angka Pertama : ");
+	scanf("%d", &bil1);
+	printf("Masukkan Angka Kedua   : ");
+	scanf("%d", &bil2);
+
+	//Proses perhitungan
+	hasilTambah = bil1 + bil2;
+	hasilKurang = bil1 - bil2;
+	hasilKali = bil1 * bil2;
+	hasilBagi = bil1 / bil2;
+	hasilModulus = bil1 % bil2;
+
+	//Menampilkan hasil operasi yang telah dilakukan
+	printf("Pertambahan : %d\n", hasilTambah);
+	printf("Pengurangan : %d\n", hasilKurang);
+	printf("Perkalian   : %d\n", hasilKali);
+	printf("Pembagian   : %d\n", hasilBagi);
+	printf("Modulus     : %d\n", hasilModulus);
+	return 0;
+}
