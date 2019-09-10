@@ -1,0 +1,117 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <math.h>
+/*
+int
+main ()
+{
+  
+     //Inilah program pertama::::
+
+     ini adalah komentar banyak
+     baris
+
+
+     printf("Hello World, Welcome to the jungle \n");
+     int bilBulat = 9; //membuat variabel untuk menampung bilBulat dan memberi nilai
+     printf("Isi variabel bilBulat adalah %d \n", bilBulat);
+     printf("Masukkan nilai baru kepada bilBulat : ");
+     scanf("%d", &bilBulat);
+     printf("Isi variabel bilBulat  sekarang adalah %d \n", bilBulat);
+}   
+*/  
+/*
+int
+main ()
+{    
+                        Program Kedua
+                    
+  int bilSatu;			//membuat variabel untuk menampung bilangan pertama
+  int bilDua;			//membuat variabel untuk menampung bilangan kedua
+
+
+  //meminta user untuk memasukkan nilai untuk kedua bilangan
+  printf ("Masukkan bilangan pertama : ");
+  scanf (" %d", &bilSatu);
+  printf ("Masukkan bilangan kedua   : ");
+  scanf (" %d", &bilDua);
+
+  //membuat variabel untuk menampung hasil pertambahan bilangan pertama dan kedua
+  int hasil = bilSatu + bilDua;
+
+  //menampilkan hasil pertambahan kedua bilangan
+  printf ("Hasil penambahan          : %d \n", hasil);
+}
+*/
+/*
+int
+main ()
+{
+                        Program Ketiga
+                     
+  int panjang;
+  int lebar;
+  
+  printf("              PROGRAM MENGHITUNG LUAS PERSEGI PANJANG \n");
+  printf("              ======================================= \n");
+  printf("Masukkan Panjang : ");
+  scanf(" %d", &panjang);
+  printf("Masukkan Lebar   : ");
+  scanf(" %d", &lebar);
+  
+  int luas = panjang*lebar;
+
+  printf ("Luas             : %d \n", luas);
+}
+*/
+/*
+int
+main ()
+{
+  float nilai;
+  int depan;
+  int belakang;
+  
+  printf("              PROGRAM MEMISAHKAN BILANGAN FLOAT DIANTARA KOMA \n");
+  printf("              =============================================== \n");
+  
+  printf("Silahkan masukkan bilangan float : ");
+  scanf("%f", &nilai);
+  
+  depan = nilai;
+  belakang = (nilai - depan) * 100;
+  
+  printf("Bilangan depan                   : %d \n", depan);
+  printf("Bilangan belakang                : %d \n", belakang);
+  
+  return 0;
+}
+*/
+int 
+main()
+{
+   int bil; //membuat variabel unuk menampung nilai integer
+   float akar; //membuat variabel untuk menampung nilai akar kuadrat
+   int kuadrat; //membuat variabel untuk menampung nilai kuadrat
+   
+   //meminta masukkan dari user untuk bilangan integer
+   printf("              PROGRAM MENGHITUNG KUADRAT DAN AKAR KUADRAT \n");
+   printf("              =========================================== \n");
+   printf("Masukkan angka integer : ");
+   scanf("%d", &bil);
+   
+   akar= sqrt(bil); //menghitung akar kuadrat
+   kuadrat= bil * bil; //menghitung kuadrat
+   
+   //menampilkan hasil akar kuadrat
+   printf("Bilangan akar          : %0.2f \n", akar);
+   //menampilkan hasil kuadrat
+   printf("Bilangan kuadrat       : %d \n", kuadrat);
+}
